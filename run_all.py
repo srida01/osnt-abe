@@ -96,7 +96,7 @@ def main():
             "msquic_commit": commit,
             "library": library,
             "access": "100 Mbps / 1 ms each direction",
-            "bottleneck": "10 Mbps / 20 ms each direction",
+            "bottleneck": "50Mbps / 20 ms each direction",
             "aqm": "fq_codel",
             "target_ms": 5,
             "interval_ms": 100,

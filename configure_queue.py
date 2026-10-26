@@ -20,9 +20,9 @@ def configure(ecn):
             "parent", "1:",
             "classid", "1:10",
             "htb",
-            "rate", "10mbit",
-            "ceil", "10mbit",
-            "burst", "15k",
+            "rate", "50mbit",
+            "ceil", "50mbit",
+            "burst", "60k",
         ])
 
         ns(router, [
@@ -31,7 +31,7 @@ def configure(ecn):
             "parent", "1:10",
             "handle", "10:",
             "netem",
-            "delay", "20ms",
+            "delay", "10ms",
             "limit", "1000",
         ])
 
