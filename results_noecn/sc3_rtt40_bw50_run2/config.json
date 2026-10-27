@@ -1,0 +1,14 @@
+{
+  "ecn": "off",
+  "abe": false,
+  "duration_s": 60,
+  "msquic_commit": "bd1871fed5dba3753981ddcd647cc1050ed84d02",
+  "library": "/home/harshitharm/Desktop/ABE/build/bin/Release/libmsquic.so.2.7.0",
+  "access": "100 Mbps / 1 ms each direction",
+  "bottleneck": "50Mbps / 20 ms each direction",
+  "aqm": "fq_codel",
+  "target_ms": 5,
+  "interval_ms": 100,
+  "cwnd_sampling_ms": 20,
+  "kernel": "7.0.0-38-generic"
+}

@@ -1,0 +1,5 @@
+tcpdump: listening on wan, link-type EN10MB (Ethernet), snapshot length 128 bytes
+tcpdump: pcap_loop: The interface disappeared
+18191 packets captured
+18270 packets received by filter
+0 packets dropped by kernel

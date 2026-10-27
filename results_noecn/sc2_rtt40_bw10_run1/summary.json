@@ -1,0 +1,18 @@
+{
+  "flow1": {
+    "samples": 2981,
+    "ecn_capable_observed": false,
+    "ecn_congestion_events": 0,
+    "suspected_lost_packets": 864,
+    "average_udp_payload_mbps": 5.075627618472531
+  },
+  "flow2": {
+    "samples": 2981,
+    "ecn_capable_observed": false,
+    "ecn_congestion_events": 0,
+    "suspected_lost_packets": 173,
+    "average_udp_payload_mbps": 4.834819707757475
+  },
+  "ecn_requested": false,
+  "ecn_exercised_both_flows": null
+}
